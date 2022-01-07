@@ -63,7 +63,7 @@
   background-color: #FFCC00;
   border-bottom-left-radius: 80px;
   border-bottom-right-radius: 80px;
-  margin-top: -4px;
+  margin-top: -5px;
   padding-bottom: 40px;
   position: relative;
 }
@@ -315,6 +315,11 @@
   padding: 0 30px;
   margin-bottom: 0;
 }
+@media (max-width: 736px) {
+  #main .picture .picture-box {
+    padding: 0 15px;
+  }
+}
 #main .picture .picture-box img {
   width: 100%;
 }
@@ -322,25 +327,61 @@
   grid-column: 1/span 2;
   grid-row: 1/span 2;
 }
+@media (max-width: 736px) {
+  #main .picture .picture-box .pic-1 {
+    grid-column: 1/span 4;
+    grid-row: 1/span 2;
+  }
+}
 #main .picture .picture-box .pic-2 {
   grid-column: 3;
   grid-row: 1;
+}
+@media (max-width: 736px) {
+  #main .picture .picture-box .pic-2 {
+    grid-column: 1/span 2;
+    grid-row: 3;
+  }
 }
 #main .picture .picture-box .pic-3 {
   grid-column: 3;
   grid-row: 2;
 }
+@media (max-width: 736px) {
+  #main .picture .picture-box .pic-3 {
+    grid-column: 3/span 2;
+    grid-row: 3;
+  }
+}
 #main .picture .picture-box .pic-4 {
   grid-column: 1;
   grid-row: 3;
+}
+@media (max-width: 736px) {
+  #main .picture .picture-box .pic-4 {
+    grid-column: 1/span 4;
+    grid-row: 4/span 2;
+  }
 }
 #main .picture .picture-box .pic-5 {
   grid-column: 2;
   grid-row: 3;
 }
+@media (max-width: 736px) {
+  #main .picture .picture-box .pic-5 {
+    grid-column: 1/span 2;
+    grid-row: 6;
+  }
+}
 #main .picture .picture-box .pic-6 {
   grid-column: 3;
   grid-row: 3;
+}
+@media (max-width: 736px) {
+  #main .picture .picture-box .pic-6 {
+    grid-column: 3/span 2;
+    grid-row: 6;
+  }
 }
 #main .register {
   width: 100%;
@@ -376,13 +417,13 @@
 }
 @media (width: 1024px) {
   #main .register .register-form {
-    grid-template-columns: 0% 100%;
+    grid-template-columns: 0 100%;
     border: none;
   }
 }
 @media (max-width: 1023px) {
   #main .register .register-form {
-    grid-template-columns: 0% 100%;
+    grid-template-columns: 0 100%;
     border: none;
     width: 90%;
   }
@@ -428,15 +469,16 @@
   background-color: #F2FBFF;
   padding: 12px 20px;
   border: none;
+  font-size: 14px;
 }
 @media (width: 1024px) {
   #main .register .register-form .form .input input {
-    padding: 20px 20px;
+    padding: 20px;
   }
 }
 @media (max-width: 1023px) {
   #main .register .register-form .form .input input {
-    padding: 20px 20px;
+    padding: 20px;
   }
 }
 @media (max-width: 736px) {
@@ -444,13 +486,6 @@
     width: 100%;
     padding: 12px 20px;
   }
-}
-#main .register .register-form .form .input select {
-  border-radius: 24px;
-  background-color: #F2FBFF;
-  padding: 12px 20px;
-  border: none;
-  color: #828282;
 }
 #main .register .register-form .form .input .input-1 {
   grid-column: 1/span 4;

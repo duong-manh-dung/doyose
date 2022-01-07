@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index/css/header.css">
   <link rel="stylesheet" href="css/index/css/main.css">
+  <link rel="stylesheet" href="css/index/css/select-tag.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -100,7 +101,8 @@
             <p>
               NỘI DUNG
               <br><br>
-              "Từ ngày 06/01/2022 đến ngày 31/01/2022, Công ty Cổ phần Dịch vụ gia tăng MobiFone (MobiFone Plus) và Tập đoàn giáo dục Kyowon (Hàn Quốc) triển khai chương trình dành cho 1.000 khách hàng đầu tiên tại Hà Nội và Hồ Chí Minh đăng ký thành công được trải nghiệm bộ sản phẩm tiếng anh thông minh giúp con tự học có định hướng DoYoSe English Premium miễn phí 7 ngày tại nhà"
+              "Từ ngày 06/01/2022 đến ngày 31/01/2022, Công ty Cổ phần Dịch vụ gia tăng MobiFone (MobiFone Plus) và Tập đoàn giáo dục Kyowon (Hàn Quốc) triển khai chương trình dành cho 1.000 khách hàng đầu tiên tại Hà Nội và Hồ Chí Minh đăng ký thành
+              công được trải nghiệm bộ sản phẩm tiếng anh thông minh giúp con tự học có định hướng DoYoSe English Premium miễn phí 7 ngày tại nhà"
               <br><br>
               Cha mẹ chỉ cần đăng ký (miễn phí) và lựa chọn khóa học thích hợp với con để DoYoSe Việt Nam gửi bộ sản phẩm tới tận nhà để con trải nghiệm miễn phí trong 7 ngày.
             </p>
@@ -202,7 +204,18 @@
               <input class="input-3" type="text" placeholder="Email">
               <input class="input-4" type="text" placeholder="Địa chỉ nhận hàng">
               <input class="input-5" type="text" placeholder="Họ và tên bé">
-              <select class="input-6">
+              <div class="input-6 custom-select select">
+                <select>
+                  <option value="0">Tuổi của bé</option>
+                  <option value="">5</option>
+                  <option value="">6</option>
+                  <option value="">7</option>
+                  <option value="">8</option>
+                  <option value="">9</option>
+                  <option value="">10</option>
+                </select>
+              </div>
+              <!-- <select class="input-6">
                 <option value="">Tuổi của bé</option>
                 <option value="">5</option>
                 <option value="">6</option>
@@ -210,14 +223,15 @@
                 <option value="">8</option>
                 <option value="">9</option>
                 <option value="">10</option>
-              </select>
+              </select> -->
               <input class="input-7" type="text" placeholder="Thiết bị dự kiến cài đặt DoYoSe">
               <input class="input-8" type="text" placeholder="Ghi chú (tùy chọn)">
             </div>
             <div class="describe">
               <p>Việc bấm nút đăng ký, bạn hoàn toàn đồng ý với
                 <a href="#">điều khoản và điều kiện</a> cũng như
-                <a href="#">thể lệ của chương trình</a> này.</p>
+                <a href="#">thể lệ của chương trình</a> này.
+              </p>
             </div>
             <div class="register-button">
               <a class="">
@@ -233,6 +247,8 @@
 
     </footer>
   </div>
+
+  <script src="js/select-tag.js" charset="utf-8"></script>
 </body>
 
 </html>
