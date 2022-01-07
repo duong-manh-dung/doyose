@@ -1,0 +1,120 @@
+#footer {
+  background-color: #000;
+  padding: 60px;
+}
+
+#footer .top-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#footer .top-footer .footer-logo {
+  margin-right: 60px;
+}
+
+#footer .top-footer .footer-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  color: #828282;
+}
+
+#footer .top-footer .footer-menu .title {
+  color: #fff;
+  font-size: 19px !important;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#footer .top-footer .footer-menu p {
+  font-size: 15px;
+}
+
+#footer .top-footer .footer-menu .connect .social {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 15px;
+}
+
+#footer .top-footer .footer-menu .connect .social span {
+  display: flex;
+  align-items: center;
+}
+
+#footer .top-footer .footer-menu .connect .social span img {
+  margin-right: 10px;
+}
+
+#footer .bottom-footer {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#footer .bottom-footer hr {
+  background-color: #333333;
+  margin: 20px 0;
+  height: 1px;
+  border: none;
+}
+
+#footer .bottom-footer .footer-content p {
+  color: #BCBCBC;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+#footer .bottom-footer .footer-content p:nth-child(3) {
+  color: #828282;
+  margin-top: 15px;
+}
+
+#footer .bottom-footer .footer-content p:last-child {
+  color: #828282;
+}
+
+@media (max-width: 1001px) {
+  #footer .top-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #footer .top-footer .footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    color: #828282;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 791px) {
+  #footer {
+    background-color: #000;
+    padding: 10px;
+  }
+
+  #footer .top-footer, #footer .bottom-footer {
+    width: 100%
+  }
+
+  #footer .top-footer .footer-logo {
+    display: none;
+  }
+
+  #footer .top-footer .footer-menu {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 20px;
+    color: #828282;
+    margin-top: 30px;
+  }
+
+  #footer .top-footer .footer-menu div {
+    margin-bottom: 30px;
+  }
+}

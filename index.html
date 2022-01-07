@@ -13,8 +13,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index/css/header.css">
+  <link rel="stylesheet" href="css/index/css/menu.css">
   <link rel="stylesheet" href="css/index/css/main.css">
   <link rel="stylesheet" href="css/index/css/select-tag.css">
+  <link rel="stylesheet" href="css/index/css/footer.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -71,7 +73,7 @@
         <div id="toggle"></div>
       </div>
     </header>
-    <ul class="menu">
+    <ul id="menu" class="menu">
       <li><a href="#">VỀ DOYOSE</a></li>
       <li><a href="#">ĐIỂM KHÁC BIỆT</a></li>
       <li><a href="#">BỘ SẢN PHẨM</a></li>
@@ -215,15 +217,6 @@
                   <option value="">10</option>
                 </select>
               </div>
-              <!-- <select class="input-6">
-                <option value="">Tuổi của bé</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
-              </select> -->
               <input class="input-7" type="text" placeholder="Thiết bị dự kiến cài đặt DoYoSe">
               <input class="input-8" type="text" placeholder="Ghi chú (tùy chọn)">
             </div>
@@ -244,11 +237,51 @@
       </div>
     </main>
     <footer id="footer">
-
+      <div class="top-footer">
+        <div class="footer-logo">
+          <img src="images/logo-2.svg" alt="">
+        </div>
+        <div class="footer-menu">
+          <div class="info">
+            <p class="title">THÔNG TIN</p>
+            <p>Chính sách bảo mật</p>
+            <p>Điều khoản sử dụng</p>
+            <p>Thanh toán, giao hàng, bảo hành</p>
+          </div>
+          <div class="explore">
+            <p class="title">KHÁM PHÁ</p>
+            <p>Về MobiFone Plus</p>
+            <p>Địa điểm trải nghiệm</p>
+            <p>Liên hệ chúng ôi</p>
+          </div>
+          <div class="connect">
+            <p class="title">KẾT NỐI VỚI CHÚNG TÔI</p>
+            <div class="social">
+              <span><img src="images/pre-icon/facebook.svg" alt=""> Facebook</span>
+              <span><img src="images/pre-icon/youtube.svg" alt=""> Youtube</span>
+              <span><img src="images/pre-icon/zalo.svg" alt=""> Zalo</span>
+              <span><img src="images/pre-icon/phone-footer.svg" alt=""> 1900 3066</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <hr>
+        <img src="images/bct.svg" alt="">
+        <hr>
+        <div class="footer-content">
+          <p>© 2021 Công ty Cổ phần Dịch vụ gia tăng MobiFone</p>
+          <p>Email: support@doyosevietnam.com.vn</p>
+          <p>MST:0311719703 do Sở KH & ĐT Tp. HCM cấp lần đầu ngày 13/04/2012,</p>
+          <p>cấp lần thứ 8 ngày 18/01/2019</p>
+        </div>
+      </div>
     </footer>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/select-tag.js" charset="utf-8"></script>
+  <script src="js/responsive-nav.js" charset="utf-8"></script>
 </body>
 
 </html>
