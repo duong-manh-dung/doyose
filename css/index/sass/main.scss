@@ -107,7 +107,7 @@ $mobile-width: 736px;
     }
 
     .box {
-      width: 90%;
+      width: 60%;
       margin-left: auto;
       margin-right: auto;
       padding: 40px;
@@ -116,6 +116,7 @@ $mobile-width: 736px;
       margin-top: -470px;
       @include tablet {
         margin-top: 0;
+        width: 80%;
       }
       @include mobile {
         padding: 10px;

@@ -94,7 +94,7 @@
   }
 }
 #main .description .box {
-  width: 90%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
@@ -107,6 +107,7 @@
 @media (max-width: 1023px) {
   #main .description .box {
     margin-top: 0;
+    width: 80%;
   }
 }
 @media (max-width: 736px) {
