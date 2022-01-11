@@ -84,13 +84,12 @@ $mobile-width: 736px;
     border-bottom-right-radius: 80px;
     margin-top: -5px;
     padding-bottom: 40px;
-    position: relative;
     @include tablet {
       padding-top: 40px;
     }
     @include mobile {
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
     }
 
     .pet-1 {
@@ -179,21 +178,23 @@ $mobile-width: 736px;
           }
         }
       }
+
+      .pet-2 {
+        position: absolute;
+        right: -56px;
+        top: 259px;
+        z-index: 2;
+        @include desktop {
+          right: -56px;
+          top: 320px;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
     }
 
-    .pet-2 {
-      position: absolute;
-      right: 250px;
-      top: 320px;
-      z-index: 2;
-      @include desktop {
-        right: 144px;
-        top: 464px;
-      }
-      @include tablet {
-        display: none;
-      }
-    }
+
   }
 
   .reason {

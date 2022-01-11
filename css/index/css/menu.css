@@ -22,6 +22,14 @@
   text-align: center;
 }
 
+.menu li.active {
+  background-color: #00A73C;
+}
+
+.menu li.active a {
+  color: #fff;
+}
+
 .menu.active li:hover {
   background-color: #E7F8FF;
 }
@@ -44,5 +52,9 @@
     width: 100%;
     background-color: transparent;
     text-align: center;
+  }
+
+  .menu li.active {
+    border-radius: 0;
   }
 }

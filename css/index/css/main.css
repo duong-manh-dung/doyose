@@ -66,7 +66,6 @@
   border-bottom-right-radius: 80px;
   margin-top: -5px;
   padding-bottom: 40px;
-  position: relative;
 }
 @media (max-width: 1023px) {
   #main .description {
@@ -75,8 +74,8 @@
 }
 @media (max-width: 736px) {
   #main .description {
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 }
 #main .description .pet-1 {
@@ -172,20 +171,20 @@
 #main .description .box .content .social img {
   margin-left: 15px;
 }
-#main .description .pet-2 {
+#main .description .box .pet-2 {
   position: absolute;
-  right: 250px;
-  top: 320px;
+  right: -56px;
+  top: 259px;
   z-index: 2;
 }
 @media (width: 1024px) {
-  #main .description .pet-2 {
-    right: 144px;
-    top: 464px;
+  #main .description .box .pet-2 {
+    right: -56px;
+    top: 320px;
   }
 }
 @media (max-width: 1023px) {
-  #main .description .pet-2 {
+  #main .description .box .pet-2 {
     display: none;
   }
 }
