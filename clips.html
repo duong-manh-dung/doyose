@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="font-awesome-pro-master/css/all.css">
+  <link rel="stylesheet" href="clips.css">
+</head>
+
+<body>
+  <div class="clips">
+    <h1>VIDEO TRẢI NGHIỆM</h1>
+    <div class="video">
+      <div class="big-video">
+        <iframe src="https://www.youtube.com/embed/vXSrAlD8zGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel">
+        <div class="iframe-box active">
+          <iframe class="active" src="https://www.youtube.com/embed/7p1wVQGDz1I" title="YouTube video player" frameborder="0"></iframe>
+        </div>
+        <div class="iframe-box">
+          <iframe src="https://www.youtube.com/embed/7p1wVQGDz1I" title="YouTube video player" frameborder="0"></iframe>
+        </div>
+        <div class="iframe-box">
+          <iframe src="https://www.youtube.com/embed/7p1wVQGDz1I" title="YouTube video player" frameborder="0"></iframe>
+        </div>
+        <div class="iframe-box">
+          <iframe src="https://www.youtube.com/embed/7p1wVQGDz1I" title="YouTube video player" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(".carousel iframe.active").before('<i class="fas fa-caret-left"></i>');
+  </script>
+</body>
+
+</html>

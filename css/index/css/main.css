@@ -312,9 +312,11 @@
 #main .picture .picture-box {
   display: grid;
   grid-gap: 10px;
-  width: 100%;
+  width: 90%;
   padding: 0 30px;
   margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 736px) {
   #main .picture .picture-box {
