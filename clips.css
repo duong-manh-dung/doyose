@@ -5,6 +5,7 @@
 .clips h1 {
   text-align: center;
   margin-bottom: 30px;
+  font-size: 35px;
 }
 
 .clips .video {
@@ -111,5 +112,11 @@ i {
 
   .iframe-box .front {
     display: none;
+  }
+}
+
+@media (max-width: 736px) {
+  .clips h1 {
+    font-size: 20px;
   }
 }
